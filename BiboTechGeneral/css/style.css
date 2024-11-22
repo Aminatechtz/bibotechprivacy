@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+blockquote {
+    background: #f8f9fa;
+    border-left: 5px solid #007bff;
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.25rem;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 1000;
+}
+
+.navbar a {
+    color: #6a0dad; /* Purple color for links */
+}
+
+.navbar a:hover {
+    color: #8a2be2; /* Lighter purple on hover */
+}
+
+.service-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none; /* Remove default border */
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.map-container {
+    border: 2px solid #6a0dad; /* Purple border for the map */
+    border-radius: 8px;
+    overflow: hidden; /* Ensures iframe corners are rounded */
+}
+
+form {
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #6a0dad; /* Purple button */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #8a2be2; /* Lighter purple on hover */
+}
